@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Grid, Menu, Segment, Container } from 'semantic-ui-react'
+import { Grid, Menu, Container } from 'semantic-ui-react'
 import WordGuess from './WordGuess';
 import TriviaGame from './TriviaGame';
 import CrystalGame from './CrystalGame';

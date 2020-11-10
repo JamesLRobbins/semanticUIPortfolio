@@ -67,7 +67,6 @@ export default class App extends Component {
   }
 
   render() {
-    const { showHome } = this.state;
     const { showAbout } = this.state;
     const { showPortfolio } = this.state;
     const { showContact } = this.state

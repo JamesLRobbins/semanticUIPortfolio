@@ -1,5 +1,4 @@
 import React from 'react';
-import NerdstilleryImage from '../images/nerdstillery.png';
 import { Image, Container, Grid } from 'semantic-ui-react'
 
 function Nerdstillery() {
@@ -8,7 +7,7 @@ function Nerdstillery() {
         <Grid columns={1}>
             <Grid.Row>
                 <Grid.Column>
-                    <Image src={NerdstilleryImage} size="massive" rounded href="http://nerdstillery.com/" target="_blank" rel="noopener noreferrer"/> <br />      
+                    <Image src={require("../images/nerdstillery.png")} size="massive" rounded href="http://nerdstillery.com/" target="_blank" rel="noopener noreferrer"/> <br />      
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>

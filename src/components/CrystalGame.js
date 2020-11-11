@@ -1,5 +1,4 @@
 import React from 'react';
-import CrystalGameImage from '../images/Crystal_Game.png';
 import { Image, Grid, Container } from 'semantic-ui-react'
 
 function CrystalGame() {
@@ -8,7 +7,7 @@ function CrystalGame() {
         <Grid columns={1}>
             <Grid.Row>
                 <Grid.Column>
-                    <Image src={CrystalGameImage} size="massive" rounded href="https://jameslrobbins.github.io/unit-4-game/" target="_blank" rel="noopener noreferrer"/> <br />      
+                    <Image src={require("../images/Crystal_Game.png")} size="massive" rounded href="https://jameslrobbins.github.io/unit-4-game/" target="_blank" rel="noopener noreferrer"/> <br />      
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>

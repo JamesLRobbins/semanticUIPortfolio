@@ -1,5 +1,4 @@
 import React from 'react';
-import WordGuessImage from '../images/Word_Guess.png';
 import { Image, Container, Grid } from 'semantic-ui-react'
 
 function WordGuess() {
@@ -8,7 +7,7 @@ function WordGuess() {
         <Grid columns={1}>
             <Grid.Row>
                 <Grid.Column>
-                    <Image src={WordGuessImage} size="massive" rounded href="https://jameslrobbins.github.io/Word_Guess_Game/" target="_blank" rel="noopener noreferrer"/> <br />      
+                    <Image src={require("../images/Word_Guess.png")} size="massive" rounded href="https://jameslrobbins.github.io/Word_Guess_Game/" target="_blank" rel="noopener noreferrer"/> <br />      
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>

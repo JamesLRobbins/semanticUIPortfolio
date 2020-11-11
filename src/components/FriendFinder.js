@@ -1,5 +1,4 @@
 import React from 'react';
-import FriendFinderImage from '../images/Friend-FInder.jpg';
 import { Image, Container, Grid } from 'semantic-ui-react'
 
 function FriendFinder() {
@@ -8,7 +7,7 @@ function FriendFinder() {
         <Grid columns={1}>
             <Grid.Row>
                 <Grid.Column>
-                    <Image src={FriendFinderImage} size="massive" rounded href="https://stark-headland-85145.herokuapp.com/" target="_blank" rel="noopener noreferrer"/> <br />      
+                    <Image src={require('../images/Friend-FInder.jpg')} size="massive" rounded href="https://stark-headland-85145.herokuapp.com/" target="_blank" rel="noopener noreferrer"/> <br />      
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>
